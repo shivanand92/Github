@@ -5,14 +5,6 @@ provider "fortios" {
   password = var.fortios_password 
   insecure = true          
 }
-
-
-resource "fortios_system_interface" "trname" {
-  ip           = "10.128.0.2/32"
-  name         = "VLAN1"         
-  type         = "vlan"           
-  vdom         = "root"
-  mode         = "static"         
-  allowaccess  = "ping"                          
+resource "fortigate_system_global" "update"{
+hostname =var.hostname
 }
-

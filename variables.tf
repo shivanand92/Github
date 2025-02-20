@@ -3,7 +3,7 @@ variable "api_token" {
   type        = string
 }
 
-variable "fortigate_hostname" {
+variable "hostname" {
   description = "FortiGate firewall hostname or IP"
   type        = string
 }
