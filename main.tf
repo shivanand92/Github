@@ -13,8 +13,6 @@ resource "fortios_system_interface" "trname" {
   type         = "vlan"           
   vdom         = "root"
   mode         = "static"         
-  allowaccess  = "ping"           
-  vlanid       = 1                 
-  description  = "VLAN1 Management Interface"
+  allowaccess  = "ping"                          
 }
 
