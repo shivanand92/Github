@@ -1,4 +1,4 @@
-api_token          = "fngNg9wcg48j5ptzgpjNrgx1dgtx7f"
+api_token          = "ys1qft5jztQt7xtNz4b0s56N0fN75b"
 fortigate_hostname = "34.67.189.20"
 vdom               = "root"
 fortios_username = "admin"         # Replace with your FortiGate admin username
